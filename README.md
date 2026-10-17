@@ -139,3 +139,7 @@ Não serão copiados como núcleo do domínio:
 ---
 
 **Importante:** esta documentação é um blueprint técnico e de produto. Requisitos oficiais podem ser atualizados pela Anvisa; por isso a implementação deverá manter um processo de revisão regulatória contínua e versionar as regras aplicadas.
+
+## Segurança de IA — OWASP 2026
+
+Para componentes que utilizem LLM, RAG, MCP ou agentes, aplicar a [baseline de segurança de IA (OWASP LLM e Agentic Top 10 2026)](docs/12-seguranca-ia-owasp-2026.md). Os controles são **requisitos e gates de revisão**, não alegações de conformidade ou implantação. Não liberar funcionalidades críticas sem evidência e autorização humana.
